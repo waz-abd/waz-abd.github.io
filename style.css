@@ -83,7 +83,7 @@ nav ul li a:hover::after {
 
 .header-text {
     margin-top: 10%;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 1.6;
     text-align: center;
 }
@@ -100,6 +100,16 @@ nav ul li a:hover::after {
 
 .header-text h2 span {
     color: #ff004f;
+}
+
+.header-text h3 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.header-text h3 span {
+    color: #fff;
 }
 
 .cursor {
@@ -226,11 +236,20 @@ nav ul li a:hover::after {
     }
 
     .header-text {
+        margin-top: 10%;
+        font-size: 100px;
+        line-height: 1.6;
+        text-align: center;
+    }
+
+    /*
+    .header-text {
         margin-top: 20%;
         font-size: 24px;
         line-height: 1.4;
         text-align: center;
     }
+    */
 
     * .header-text h1 {
         font-size: 28px;
@@ -239,8 +258,16 @@ nav ul li a:hover::after {
         margin-left: 10px;
     }
 
-    .header-text p {
+    * .header-text h3 {
         font-size: 18px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    /* */
+
+    .header-text p {
+        font-size: 15px;
         text-align: center;
     }
 
@@ -354,6 +381,20 @@ nav ul li a:hover::after {
 .tab-contents ul li span {
     color: #ff004f;
     font-size: 16px;
+}
+
+@media screen and (max-width: 600px) {
+    .tab-contents ul li {
+        list-style: none;
+        margin: 20px;
+        text-align: center;
+        margin-left: -40px;
+    }
+
+    .tab-contents ul li span {
+        color: #ff004f;
+        font-size: 16px;
+    }
 }
 
 .tab-contents {
