@@ -1,2 +1,32 @@
-# Porfolio-Website
- Here is my website that showcases my projects, skills, and my experience! Built using HTML, CSS, and vanilla Javascript.
+# 💼 Abdul Wasay — Portfolio
+
+My personal portfolio site, built to showcase my experience, projects, and skills as a Software QA professional.
+
+🔗 [View live site](#) &nbsp;·&nbsp; 💼 [LinkedIn](https://www.linkedin.com/in/waz-abd/) &nbsp;·&nbsp; 🐙 [GitHub](https://github.com/waz-abd)
+
+## ℹ️ About
+
+A single-page site with a Matrix-style animated background, a sticky nav bar, and sections for my background, work experience, projects, and contact info.
+
+## 🧭 Sections
+
+- 🏠 **Home** — intro and quick links
+- 🙋 **About** — skills, education, and interests
+- 🧗 **Experience** — a timeline of my QA internships
+- 🛠️ **Projects** — a few things I've built
+- 📬 **Contact** — a contact form and my details
+
+## 🧰 Built with
+
+- 🌐 HTML5, CSS3, vanilla JavaScript
+- 🔤 Google Fonts (Fira Code)
+- 📊 Google Sheets (via Apps Script) for the contact form
+
+## 🚀 Running locally
+
+1. Clone the repo
+2. Open `index.html` in your browser — no build step needed
+
+## 📧 Contact
+
+Reach me at abdul.wasay1@ontariotechu.net or through the form on the site.
