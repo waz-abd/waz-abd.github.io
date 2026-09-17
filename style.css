@@ -25,9 +25,30 @@ canvas#Matrix {
     /* Places canvas behind all other content */
 }
 
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background: rgba(8, 8, 8, 0.85);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.nav-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 18px 10%;
+}
+
 #header {
     width: 100%;
     height: 100vh;
+    padding-top: 90px;
     background-size: cover;
     background-position: center;
 }
@@ -38,18 +59,19 @@ canvas#Matrix {
     flex-wrap: wrap;
 }
 
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.logo {
+    font-size: 1.9rem;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-align: left;
 }
 
-.logo {
-    font-size: 1.75rem;
-    color: #ff004f;
-    font-weight: bold;
-    text-align: left;
+.logo-first {
+    color: #fff;
+}
+
+.logo-last {
+    color: #fff;
 }
 
 nav ul li {
@@ -211,20 +233,22 @@ nav ul li a:hover::after {
 
 /* Responsive CSS for screens up to 600px */
 @media screen and (max-width: 600px) {
-    nav {
+    #header {
+        padding-top: 70px;
+    }
+
+    .nav-inner {
         flex-direction: column;
         align-items: center;
     }
 
     .logo {
-        font-size: 1.75rem;
-        color: #ff004f;
-        font-weight: bold;
-        margin-top: 20px;
-        margin-bottom: 40px;
+        font-size: 1.6rem;
+        margin-top: 10px;
+        margin-bottom: 20px;
     }
 
-    nav ul {
+    .nav-inner ul {
         padding: 0;
         background: #ff004f;
         position: fixed;
@@ -237,7 +261,7 @@ nav ul li a:hover::after {
         transition: right 0.5s;
     }
 
-    nav ul li {
+    .nav-inner ul li {
         display: block;
         margin: 10px 0;
     }
