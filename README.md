@@ -2,7 +2,7 @@
 
 My personal portfolio site, built to showcase my experience, projects, and skills as a Software QA professional.
 
-🔗 [View live site](#) &nbsp;·&nbsp; 💼 [LinkedIn](https://www.linkedin.com/in/waz-abd/) &nbsp;·&nbsp; 🐙 [GitHub](https://github.com/waz-abd)
+🔗 [View live site](https://waz-abd.github.io/) &nbsp;·&nbsp; 💼 [LinkedIn](https://www.linkedin.com/in/waz-abd/) &nbsp;·&nbsp;
 
 ## ℹ️ About
 
@@ -12,7 +12,7 @@ A single-page site with a Matrix-style animated background, a sticky nav bar, an
 
 - 🏠 **Home** — intro and quick links
 - 🙋 **About** — skills, education, and interests
-- 🧗 **Experience** — a timeline of my QA internships
+- 🧗 **Experience** — a timeline of my internships
 - 🛠️ **Projects** — a few things I've built
 - 📬 **Contact** — a contact form and my details
 
@@ -21,11 +21,6 @@ A single-page site with a Matrix-style animated background, a sticky nav bar, an
 - 🌐 HTML5, CSS3, vanilla JavaScript
 - 🔤 Google Fonts (Fira Code)
 - 📊 Google Sheets (via Apps Script) for the contact form
-
-## 🚀 Running locally
-
-1. Clone the repo
-2. Open `index.html` in your browser — no build step needed
 
 ## 📧 Contact
 
