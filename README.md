@@ -1,6 +1,6 @@
 # 💼 Abdul Wasay — Portfolio
 
-My personal portfolio site, built to showcase my experience, projects, and skills as a Software QA professional.
+My personal portfolio site, built to showcase my experience, projects, and skills as an IT professional.
 
 🔗 [View live site](https://waz-abd.github.io/) &nbsp;·&nbsp; 💼 [LinkedIn](https://www.linkedin.com/in/waz-abd/) &nbsp;·&nbsp;
 
