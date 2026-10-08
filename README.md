@@ -24,4 +24,4 @@ A single-page site with a Matrix-style animated background, a sticky nav bar, an
 
 ## 📧 Contact
 
-Reach me at abdul.wasay1@ontariotechu.net or through the form on the site.
+Reach me at abdul.wasay1@ontariotechu.net or through the form on the site. :)
